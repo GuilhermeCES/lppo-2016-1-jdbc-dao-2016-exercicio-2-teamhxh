@@ -27,7 +27,7 @@ public class AtividadeController extends HttpServlet {
                 lista = new ArrayList<Atividade>();
                 request.setAttribute("erro", "Problema ao listar as atividades");
             }
-            request.setAttribute("estabelecimentos", lista);
+            request.setAttribute("atividades", lista);
             request.getRequestDispatcher("/WEB-INF/listar.jsp").forward(request, response);
         } else if (request.getRequestURI().contains("cadastrar.html")) {
             request.getRequestDispatcher("/WEB-INF/novo.jsp").forward(request, response);
@@ -76,4 +76,3 @@ public class AtividadeController extends HttpServlet {
     }// </editor-fold>
 
 }
-

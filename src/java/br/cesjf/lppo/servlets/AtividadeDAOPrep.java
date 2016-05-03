@@ -44,6 +44,7 @@ public class AtividadeDAOPrep {
                 atab.setFuncionario(resultado.getString("funcionario"));
                 atab.setTipo(resultado.getString("tipo"));
                 atab.setHoras(resultado.getInt("horas"));
+                atab.setDescricao(resultado.getString("descricao"));
                 todos.add(atab);
             }
         } catch (SQLException ex) {

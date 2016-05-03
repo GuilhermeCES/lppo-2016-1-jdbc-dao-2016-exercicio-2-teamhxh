@@ -1,0 +1,7 @@
+<nav>
+<h2>Atividades</h2>
+<ul>
+    <li><a href="listar.html">Listar</a></li>
+    <li><a href="cadastrar.html">Novo</a></li>
+</ul>
+</nav>
